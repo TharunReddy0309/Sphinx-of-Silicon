@@ -33,25 +33,24 @@ Edit
 ---
 
 ## 🚀 Quick Start
-
-### 1. Clone the repo
+### 1. Clone the repo:
     ```bash
     git clone https://github.com/your-username/sphinx-riddle-game.git
     cd sphinx-riddle-game
-2. Set up a virtual environment
+2. Set up a virtual environment:
 
     python -m venv venv
     # Linux/Mac
     source venv/bin/activate
     # Windows
     venv\Scripts\activate
-3. Install dependencies
+3. Install dependencies:
 
     pip install -r requirements.txt
-4. Add your API key
+4. Add your API key:
     Create a .env file in the project root:
     groqai=your_api_key_here
-5. Run the game
+5. Run the game:
 
     streamlit run game.py
     Open your browser → http://localhost:8501
