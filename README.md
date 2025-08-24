@@ -68,21 +68,34 @@ Difficulty Score	What You See
 The more riddles you solve and the more hints you request, the tougher it gets.
 
 🛠 Tech Stack:
+    
     Python 3.12.0
+    
     Streamlit → UI & interactivity
+    
     LangChain → Orchestrating the AI Sphinx
+    
     Groq LLMs → Generating riddles & phrases
+    
     scikit-learn → Hint difficulty model
+    
     NumPy + Joblib → Data & model persistence
+    
     python-dotenv → Environment config
 
 📦 Requirements:
     streamlit
+
     python-dotenv
+    
     langchain
+    
     langchain-groq
+    
     scikit-learn
+    
     numpy
+    
     joblib
 
 (See requirements.txt for details.)
