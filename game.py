@@ -15,7 +15,7 @@ chat_model_groq = ChatGroq(
     groq_api_key=st.secrets["groqai"],
     temperature=0.9,
     model_kwargs={"top_p": 0.9},
-    model="openai/gpt-oss-120b"  # or llama-4-scout
+    model="openai/gpt-oss-120b"  
 )
 
 # ---------------- Generate Secret Phrase ----------------
