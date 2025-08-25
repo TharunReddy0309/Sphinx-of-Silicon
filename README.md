@@ -5,6 +5,7 @@
 An interactive **AI-powered riddle game** built with **Streamlit**, **LangChain**, and **Groq LLMs**.  
 Crack riddles to uncover a **mystical secret phrase** while the Sphinx tests your wit.  
 Need help? A smart hint system powered by **machine learning** adjusts difficulty as you play.  
+- **Here is the live link**- sphinx-of-silicon.streamlit.app 
 
 ---
 
@@ -26,9 +27,6 @@ It’s not just a game — it’s **AI + riddles + strategy** in one experience.
 ├── linearmodel.joblib # Trained regression model
 ├── requirements.txt # Dependencies
 
-yaml
-Copy
-Edit
 
 ---
 
