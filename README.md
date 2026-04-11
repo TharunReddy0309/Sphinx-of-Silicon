@@ -53,7 +53,7 @@ It’s not just a game — it’s **AI + riddles + strategy** in one experience.
     streamlit run game.py
     Open your browser → http://localhost:8501
 
-🧮 How Hints Work
+How Hints Work
 A linear regression model decides how big a hint you get:
 
 Difficulty Score	What You See
