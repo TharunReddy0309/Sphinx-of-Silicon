@@ -1,4 +1,4 @@
-# 🔮 The Sphinx of Silicon
+#  The Sphinx of Silicon
 
 > *"Answer wisely, mortal… for with each riddle solved, the Sphinx lets you peek at a hidden truth."*  
 
@@ -9,18 +9,18 @@ Need help? A smart hint system powered by **machine learning** adjusts difficult
 
 ---
 
-## ✨ Why Play?
-- 🧩 Solve fun, brain-teasing riddles  
-- 🤖 Battle an **AI Sphinx** that reacts to your answers  
-- 💡 Unlock **dynamic hints** (small → medium → big → full reveal)  
-- 🎭 Reveal a **hidden poetic phrase** word by word  
-- 🎉 Celebrate your victory with magical Streamlit effects  
+##  Why Play?
+-  Solve fun, brain-teasing riddles  
+-  Battle an **AI Sphinx** that reacts to your answers  
+-  Unlock **dynamic hints** (small → medium → big → full reveal)  
+-  Reveal a **hidden poetic phrase** word by word  
+-  Celebrate your victory with magical Streamlit effects  
 
 It’s not just a game — it’s **AI + riddles + strategy** in one experience.  
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 .
 ├── game.py # Main Streamlit app
 ├── kmodel.py # Linear regression model for hint difficulty
@@ -30,7 +30,7 @@ It’s not just a game — it’s **AI + riddles + strategy** in one experience.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 ### 1. Clone the repo:
     ```bash
     git clone https://github.com/your-username/sphinx-riddle-game.git
@@ -57,10 +57,10 @@ How Hints Work
 A linear regression model decides how big a hint you get:
 
 Difficulty Score	What You See
-    < 30	🪄 Small hint
-    30–65	🔑 Medium hint
-    65–80	🚪 Big hint
-    > 80	💀 Full answer revealed → You lose!
+    < 30	 Small hint
+    30–65	 Medium hint
+    65–80	 Big hint
+    > 80	 Full answer revealed → You lose!
 
 The more riddles you solve and the more hints you request, the tougher it gets.
 
@@ -80,7 +80,7 @@ The more riddles you solve and the more hints you request, the tougher it gets.
     
     python-dotenv → Environment config
 
-📦 Requirements:
+ Requirements:
     streamlit
 
     python-dotenv
@@ -97,14 +97,19 @@ The more riddles you solve and the more hints you request, the tougher it gets.
 
 (See requirements.txt for details.)
 
-🛤 Roadmap / Future Magic
-    ✨ Add difficulty modes (easy / medium / hard)
-    ✨ Multiplayer Sphinx battles
-    ✨ Save game progress in a database
-    ✨ Themed riddles (mythology, sci-fi, fantasy)
-    ✨ Richer UI with animations
+ Roadmap / Future Magic
+     
+     Add difficulty modes (easy / medium / hard)
+     
+     Multiplayer Sphinx battles
+     
+     Save game progress in a database
+     
+     Themed riddles (mythology, sci-fi, fantasy)
+     
+     Richer UI with animations
 
-👤 Author
+Author
     Tharun
 
 Built with curiosity, code, and a love for riddles.
